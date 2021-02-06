@@ -1,3 +1,23 @@
+---
+title: "MDI Strategy"
+output: 
+  html_document:
+    css: style.css
+    theme: spacelab
+    toc: true
+    toc_depth: 3
+    toc_float:
+      collapsed: true
+      smooth_scroll: true
+---
+
+```{r,include=F}
+knitr::opts_chunk$set(error = F,message = F,comment = F,warning = F)
+# Packages for reading in the tables
+require(tidyverse)
+require(kableExtra)
+```
+
 
 ## TEST
 
